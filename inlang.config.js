@@ -1,6 +1,6 @@
 export async function defineConfig(env) {
     const { default: pluginJson } = await env.$import(
-        'https://cdn.jsdelivr.net/npm/@erskingardner/inlang-plugin-json@latest/dist/index.js'
+        'https://cdn.jsdelivr.net/npm/@erskingardner/inlang-plugin-json@2.3.1/dist/index.js'
     );
 
     const { default: standardLintRules } = await env.$import(
